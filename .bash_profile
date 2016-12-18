@@ -61,6 +61,12 @@ alias ip="curl icanhazip.com"
 ## Shutdown your computer like a badass
 alias shutdown="sudo shutdown -h now"
 
+## Move to trash
+function del()
+{
+  mv "$@" "~/.Trash/"
+}
+
 ## websites
 alias facebook="open -a 'Google Chrome' http://facebook.com/"
 alias instagram="open -a 'Google Chrome' http://instagram.com/"
