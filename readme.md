@@ -59,6 +59,7 @@ brew cask install jumpcut
 brew cask install licecap
 brew cask install microsoft-office
 brew cask install numi
+brew cask install sketch
 brew cask install skype
 brew cask install spectacle
 brew cask install spotify
