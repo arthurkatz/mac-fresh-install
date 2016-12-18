@@ -88,8 +88,8 @@ In iTerm > Preferences..., under the tab General, uncheck Confirm closing multip
 
 ```
 cd ~
-curl -O https://raw.githubusercontent.com/arthurkatz_fr/master/mac-fresh-install/.bash_profile
-curl -O https://raw.githubusercontent.com/arthurkatz_fr/master/mac-fresh-install/.bash_prompt
+curl -O https://raw.githubusercontent.com/arthurkatz_fr/mac-fresh-install/master/.bash_profile
+curl -O https://raw.githubusercontent.com/arthurkatz_fr/mac-fresh-install/master/.bash_prompt
 ```
 
 ## npm
@@ -158,3 +158,5 @@ pbcopy < ~/.ssh/id_rsa.pub # Copies the contents of the id_rsa.pub file to your 
 ```
 
 ## One line install
+
+TODO
