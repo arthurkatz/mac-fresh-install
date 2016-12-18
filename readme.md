@@ -23,6 +23,7 @@ brew install node
 brew install openssl
 brew install python
 brew install redis
+brew install subversion
 brew install wget
 ```
 
