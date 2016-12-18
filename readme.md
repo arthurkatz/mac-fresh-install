@@ -44,6 +44,7 @@ brew cask install cakebrew
 brew cask install dashlane
 brew cask install docker-toolbox
 brew cask install dropbox
+brew cask install fantastical
 brew cask install firefox
 brew cask install franz
 brew cask install google-chrome
@@ -54,6 +55,7 @@ brew cask install java
 brew cask install jumpcut
 brew cask install licecap
 brew cask install microsoft-office
+brew cask install numi
 brew cask install skype
 brew cask install spectacle
 brew cask install spotify
@@ -76,8 +78,8 @@ dockutil --remove all --allhomes
 dockutil --add /Applications/Google\ Chrome.app --allhomes
 dockutil --add /Applications/iTerm.app --allhomes
 dockutil --add /Applications/Franz.app --allhomes
+dockutil --add /Applications/Fantastical\ 2.app --allhomes
 dockutil --add /Applications/Atom.app --allhomes
-dockutil --add /Applications/VLC.app --allhomes
 dockutil --add /Applications/VLC.app --allhomes
 ```
 
