@@ -52,6 +52,7 @@ alias Desktop="cd ~/Desktop/"
 alias chrome="open -a 'Google Chrome'"
 
 ## Git aliases
+alias gac="git add . && git commit -am"
 alias gpd="git push origin develop"
 alias gpm="git push origin master"
 
