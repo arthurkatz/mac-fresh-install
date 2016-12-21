@@ -84,7 +84,6 @@ dockutil --add /Applications/iTerm.app --allhomes
 dockutil --add /Applications/Franz.app --allhomes
 dockutil --add /Applications/Fantastical\ 2.app --allhomes
 dockutil --add /Applications/Atom.app --allhomes
-dockutil --add /Applications/VLC.app --allhomes
 ```
 
 ## iTerm
