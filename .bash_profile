@@ -72,3 +72,7 @@ function del()
 alias facebook="open -a 'Google Chrome' http://facebook.com/"
 alias instagram="open -a 'Google Chrome' http://instagram.com/"
 alias medium="open -a 'Google Chrome' http://medium.com/"
+
+## Recursive touch
+alias touchall="find . -exec touch {} \;"
+
