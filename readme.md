@@ -138,6 +138,11 @@ Allow speedtest in cli
 pip install speedtest-cli
 ```
 
+Use Gandi CLI
+```
+pip install gandi.cli
+```
+
 ## Configure ssh github
 
 Configure your git
