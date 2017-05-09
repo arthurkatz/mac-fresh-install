@@ -76,3 +76,15 @@ alias medium="open -a 'Google Chrome' http://medium.com/"
 ## Recursive touch
 alias touchall="find . -exec touch {} \;"
 
+## Mjml boilerplate (clone and push to git)
+function mjml-boilerplate {
+  git lab clone arthurkatz_fr/mjml-boilerplate $1
+  cd ./$1/
+  rm -rf .git
+  git lab create arthurkatz_fr/$1
+  git init
+  git remote add origin git@gitlab.com:arthurkatz_fr/$1.git
+  gac "initial commit"
+  gpm
+}
+
