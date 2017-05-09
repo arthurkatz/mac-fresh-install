@@ -151,7 +151,7 @@ Use Git lab,hub... CLI
 pip3 install git-repo
 git repo config
 ```
-Add to ~/.gitconfig
+Add to [alias] in ~/.gitconfig
 ```
 hub = repo hub
 lab = repo lab
