@@ -148,7 +148,8 @@ pip install gandi.cli
 
 Use Git lab,hub... CLI
 ```
-brew install python3
+pip3 install git-repo
+git repo config
 ```
 ## Configure ssh github
 
