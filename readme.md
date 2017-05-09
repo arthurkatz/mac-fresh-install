@@ -57,7 +57,9 @@ brew cask install iterm
 brew cask install java
 brew cask install jumpcut
 brew cask install licecap
+brew cask install mamp
 brew cask install microsoft-office
+brew cask install mjml
 brew cask install numi
 brew cask install sketch
 brew cask install skype
@@ -72,7 +74,6 @@ brew cask install transmission
 brew cask install transmit
 brew cask install virtualbox
 brew cask install vlc
-brew cask install mamp
 ```
 
 ## Dockutil
