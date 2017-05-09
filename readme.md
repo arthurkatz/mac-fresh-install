@@ -151,6 +151,12 @@ Use Git lab,hub... CLI
 pip3 install git-repo
 git repo config
 ```
+Add to ~/.gitconfig
+```
+hub = repo hub
+lab = repo lab
+bb = repo bb
+```
 ## Configure ssh github
 
 Configure your git
