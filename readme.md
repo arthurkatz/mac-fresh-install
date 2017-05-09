@@ -146,6 +146,10 @@ Use Gandi CLI
 pip install gandi.cli
 ```
 
+Use Git lab,hub... CLI
+```
+brew install python3
+```
 ## Configure ssh github
 
 Configure your git
