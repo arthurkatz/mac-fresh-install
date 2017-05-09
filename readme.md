@@ -22,6 +22,7 @@ brew install mongodb
 brew install node
 brew install openssl
 brew install python
+brew install python3
 brew install redis
 brew install subversion
 brew install wget
