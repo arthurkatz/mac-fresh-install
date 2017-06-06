@@ -118,6 +118,11 @@ Install Gulp
 npm install -g gulp
 ```
 
+Install Browser-sync
+```
+npm install -g browser-sync
+```
+
 ## Custom things
 
 Change screenshots default folder
