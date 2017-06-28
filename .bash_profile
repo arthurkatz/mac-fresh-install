@@ -88,3 +88,36 @@ function mjml-boilerplate {
   gpm
 }
 
+## Chrome watching mjml
+
+alias cmi="chrome . && mjml -w index.mjml"
+
+## Mjml boilerplate (clone and push to git)
+function mjml-boilerplate {
+  git lab clone arthurkatz_fr/mjml-boilerplate $1
+  cd ./$1/
+  rm -rf .git
+  git lab create arthurkatz_fr/$1
+  git init
+  git remote add origin git@gitlab.com:arthurkatz_fr/$1.git
+  gac "initial commit"
+  gpm
+  npm link gulp gulp-util vinyl-ftp gulp-mjml gulp-string-replace gulp-email gulp-zip gulp-git path
+}
+
+## Companeo
+alias companeo="cd /Users/arthurkatz/OneDrive\ -\ COMPANEO/"
+
+function mjml-companeo {
+  git lab clone arthurkatz_fr/mjml-companeo $1
+  cd ./$1/
+  rm -rf .git
+  git lab create arthurkatz_fr/companeo-$1
+  git init
+  git remote add origin git@gitlab.com:arthurkatz_fr/companeo-$1.git
+  gac "initial commit"
+  gpm
+  npm link gulp gulp-util vinyl-ftp gulp-mjml gulp-string-replace gulp-email gulp-zip gulp-git path
+  cd ./dev/
+  atom index.mjml
+}
